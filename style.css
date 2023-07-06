@@ -117,3 +117,23 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media (max-width: 600px){
+  main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 8.4rem;
+  }
+.message{
+  padding: 2.6rem;
+}
+
+.between{
+  font-size: 1.1rem;
+}
+h1{
+  
+  font-size: 1.1rem;
+}
+ }
